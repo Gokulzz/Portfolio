@@ -3,9 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiFillGithub
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -19,19 +17,25 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I love programming because it gives you an ability to create something meaningful and impactful.
               <br />
               <br />I am fluent in 
               <i>
                 <b className="purple"> C#, SQL, .net Framework. </b>
               </i>
+              I also have experience working with front end Technologies like
+              <i>
+              <b className="purple"> HTML, CSS, JavaScript </b>
+              </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Software Products </b> and
+                <b className="purple">Web Technologies and Software Products </b> 
+                </i>
+                and
                 also in areas related to{" "}
+                <i>
                 <b className="purple">
                   cloud computing.
                 </b>
@@ -47,7 +51,7 @@ function Home2() {
                 </b>
 
               </i>
-              The IDE that I frequently use is
+               The IDE that I frequently use is
               &nbsp; 
               <i>
                 <b className="purple">Visual Studio and VS Code</b>

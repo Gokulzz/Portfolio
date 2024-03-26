@@ -49,7 +49,7 @@ function Projects() {
               isBlog={false}
               title="Demo chat app"
               description="Made a simple backend for chat app using SignalR library in .net framework."
-              ghLink="https://github.com/Gokulzz/MemeApp"
+              ghLink="https://github.com/Gokulzz/DemoChatApp"
               demoLink=""              
             />
           </Col>
