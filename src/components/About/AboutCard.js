@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Gokul Khatri </span>
             from <span className="purple"> Nepal.</span>
             <br />
-            I am currently studying Software Engineering Technician in Centennial College, Toronto, Canada.
+            I have completed my associate degree in Software Engineering Technician from Centennial College, Toronto, Canada.
             <br />
             I have done internship working as a .net developer back  in Nepal.
             <br />

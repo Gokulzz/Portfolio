@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import Jobsite from "../../Assets/Projects/Jobsite.jpg";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
@@ -26,10 +26,25 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="E-CommerceApp"
-              description="Currently, creating an ecommerce-app that allows user to see buy product online. Backend is written in C# using .net framework and MS SQL Server and front end using html, css , javascript."
+              description="Created an ecommerce-app that allows user to see buy product online. Backend is written in C# using .net framework and MS SQL Server and front end using html, css , javascript.
+              I have used Stripe API for payment testing purpose, have also incorporated rabbit mq for message queuing service in successful order placement. "
               ghLink="https://github.com/Gokulzz/eCommerceApp"
               demoLink=""
             />
+          </Col>
+          <Col md={4}  className="project-card"
+          imgPath={Jobsite}
+          isBlog={false}
+          title="Job Recommendation Site"
+          description="The app will scrap job from multiple online jobsite and add it to the database and based on the user-profile(
+          User skills, resume, prefereneces(job-tiltle, location) jobs will be recommended.
+          Tech stack: Backend: .net, python(for calculating relevance score of each jobs to specific user, I also plan to train model with the 
+          scraped job data and user profile to make the recommendation service better) Frontend: React,Database:
+          SQL Server"
+          ghLink="https://github.com/Gokulzz/AI_JobRecommendation"
+          demoLink=""
+          >
+
           </Col>
 
           <Col md={4} className="project-card">
@@ -47,8 +62,11 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Demo chat app"
-              description="Made a simple backend for chat app using SignalR library in .net framework."
+              title="Doctor appointment"
+              description="Made an web app that allows registered user to make an appointment with doctor based on the availabilty.
+              User will also be able to add their medical report and view their scheduled appointment 
+              Tech stack: MongoDB, Express, ReactJs, NodeJs"
+              
               ghLink="https://github.com/Gokulzz/DemoChatApp"
               demoLink=""              
             />
