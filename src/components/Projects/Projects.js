@@ -32,7 +32,8 @@ function Projects() {
               demoLink=""
             />
           </Col>
-          <Col md={4}  className="project-card"
+          <Col md={4}  className="project-card">
+          <ProjectCard
           imgPath={Jobsite}
           isBlog={false}
           title="Job Recommendation Site"
@@ -43,8 +44,7 @@ function Projects() {
           SQL Server"
           ghLink="https://github.com/Gokulzz/AI_JobRecommendation"
           demoLink=""
-          >
-
+          />
           </Col>
 
           <Col md={4} className="project-card">
